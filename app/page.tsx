@@ -18,6 +18,7 @@ import {
   BLOG_POSTS,
   EMAIL,
   SOCIAL_LINKS,
+  PHONE_NUMBER,
 } from './data'
 
 const VARIANTS_CONTAINER = {
@@ -255,6 +256,10 @@ export default function Personal() {
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
             {EMAIL}
           </a>
+          {' '}ou pelo{' '}
+            <a className="underline dark:text-zinc-300" href={`https://wa.me/${PHONE_NUMBER}`}>
+            WhatsApp
+            </a>
         </p>
         <div className="flex items-center justify-start space-x-3">
           {SOCIAL_LINKS.map((link) => (

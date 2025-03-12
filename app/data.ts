@@ -37,17 +37,8 @@ export const PROJECTS: Project[] = [
     id: 'project1',
   },
   {
-    name: 'Mustafá Administração e Venda de Imóveis',
-    description: 'Imobiliária Digital',
-    link: 'https://mustafaadmimoveis.com.br/',
-    video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project2',
-  },
-  {
     name: 'Lopes Compliance',
-    description:
-      'Software de Compliance e landing page feita com javascript + Nuxt no front e PHP + laravel no back e banco de dados MySQL',
+    description: 'Landing page feita com javascript + Nuxt',
     link: 'https://lopescompliance.com/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
@@ -57,19 +48,11 @@ export const PROJECTS: Project[] = [
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Freelance',
-    title: 'Criação de sites, tráfego pago, orgânico e SEO',
-    start: '2024',
-    end: 'present',
-    link: 'https://github.com/cauemustafa',
-    id: 'work1',
-  },
-  {
     company: 'Mustafá Administração e Venda de Imóveis',
     title: 'Analista de Marketing Digital',
     start: '2025',
     end: 'Present',
-    link: 'https:mustafaadmimoveis.com.br',
+    link: 'https://mustafaadmimoveis.com.br/',
     id: 'work2',
   },
   {
@@ -79,6 +62,14 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     end: '31/01/2025',
     link: 'https://marialoka.com',
     id: 'work3',
+  },
+  {
+    company: 'Freelance',
+    title: 'Criação de sites, tráfego pago, orgânico e SEO',
+    start: '2024',
+    end: 'present',
+    link: '/',
+    id: 'work1',
   },
 ]
 
@@ -100,10 +91,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/cauemustafa',
   },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/cauemustafa',
-  },
 ]
 
 export const EMAIL = '42musta.dev@gmail.com'
+
+export const PHONE_NUMBER = '5511963785500'
